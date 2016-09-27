@@ -1,0 +1,19 @@
+{
+    "name": "laravelsp/dojo-boilerplate",
+    "description": "Dojo Boilerplate",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.5",
+        "mockery/mockery": "^0.9.5"
+    },
+     "autoload": {
+        "psr-4": {
+            "Dojo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests"
+        ]
+    }
+}
